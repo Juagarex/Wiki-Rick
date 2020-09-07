@@ -123,20 +123,3 @@ body {
 
 
 
-@media (max-width: 780px) {
-	.characters {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media (max-width: 480px) {
-	.characters {
-		grid-template-columns: 1fr;
-	}
-
-	.characters-inner {
-		grid-template-columns: 1fr;
-		grid-gap: 0;
-		grid-row-gap: 0;
-	}
-}
