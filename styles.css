@@ -123,3 +123,35 @@ body {
 
 
 
+@media (max-width: 780px) {
+	.Characters {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) and (min-width:325px) {
+	.Characters {
+		grid-template-columns: 1fr;
+        justify-content: center;
+        
+	}
+    .Characters article{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+	.Characters-inner {
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+		grid-row-gap: 0;
+	}
+
+    .Characters-item a{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        
+    }
+}
